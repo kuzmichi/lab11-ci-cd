@@ -2,6 +2,7 @@ const { Builder, By } = require('selenium-webdriver');
 const path = require('path');
 
 describe('Registration Form UI Tests', () => {
+    jest.setTimeout(30000);
     let driver;
 
     beforeAll(async () => {
