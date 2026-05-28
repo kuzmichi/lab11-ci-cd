@@ -1,0 +1,14 @@
+{
+  "name": "lab11-ci-cd",
+  "version": "1.0.0",
+  "description": "Lab 11: CI/CD and Automated UI Testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "selenium-webdriver": "^4.20.0"
+  }
+}
