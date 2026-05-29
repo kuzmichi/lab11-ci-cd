@@ -5,6 +5,7 @@ describe('Registration Form UI Tests', () => {
     jest.setTimeout(30000);
     let driver;
 
+    
     beforeAll(async () => {
         const browser = process.env.BROWSER || 'MicrosoftEdge';
         const builder = new Builder().forBrowser(browser);
